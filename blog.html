@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Blog</title>
+    <style>
+      header {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 20px;
+      }
+
+      .post-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        margin-top: 20px;
+      }
+
+      .post {
+        border: 1px solid #ccc;
+        padding: 10px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      }
+
+      .post img {
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+      }
+
+      .post-title {
+        margin: 10px 0;
+        font-size: 24px;
+      }
+
+      .post-description {
+        margin: 10px 0;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Activities</h1>
+    </header>
+
+    <div class="post-grid">
+      <div class="post">
+        <a href="post1.html"><img src="annual day.jpg" /></a>
+        <h2 class="post-title">Post 1</h2>
+        <p class="post-description">Description of Post 1</p>
+      </div>
+
+      <div class="post">
+        <a href="post2.html"><img src="graduation.jpg" /></a>
+        <h2 class="post-title">Post 2</h2>
+        <p class="post-description">Description of Post 2</p>
+      </div>
+
+      <div class="post">
+        <a href="post3.html"><img src="staff.jpg" /></a>
+        <h2 class="post-title">Post 3</h2>
+        <p class="post-description">Description of Post 3</p>
+      </div>
+      <div class="square">
+        <img src="2bodyimg.jpg" alt="Your Image" />
+      </div>
+
+      <!-- Add more posts here -->
+    </div>
+  </body>
+</html>

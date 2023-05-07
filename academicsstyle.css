@@ -1,0 +1,140 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  margin-left: 2.2em;
+}
+.header_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30%;
+  font-size: large;
+  text-decoration: none;
+}
+
+.social {
+  margin-right: 50px;
+}
+#a {
+  text-decoration: none;
+  font-size: larger;
+  margin-right: 35px;
+  transition: font-size 0.7s;
+}
+#a:hover {
+  font-size: 1.5em;
+}
+.academics {
+  width: 100%;
+  height: 4em;
+  background-color: rgb(85, 45, 177);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6em;
+  color: whitesmoke;
+}
+.textbody {
+  margin-block-start: 3em;
+  margin-block-end: 3em;
+  display: flex;
+}
+.heading {
+  padding-left: 2em;
+  flex: 1;
+  font-size: 4em;
+}
+.text {
+  font-size: 3vh;
+  flex: 3;
+  opacity: 0.7;
+}
+.course {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2em;
+  row-gap: 50px;
+  margin-bottom: 200px;
+  box-sizing: border-box;
+}
+#c1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  transition: background-color 0.5s ease;
+}
+#c1 img {
+  transition: width 0.5sec;
+}
+#c1 p {
+  font-size: 2em;
+}
+.c1container {
+  width: 22em;
+  height: 22em;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-block-end: 0px;
+  flex: 1;
+}
+.para1 {
+  padding-left: 6em;
+  flex: 3;
+
+  height: 100%;
+}
+.para1 h4 {
+  opacity: 0.7;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.footer-top {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 200px;
+  background-color: #ccc;
+}
+.bbs {
+  flex: 1.7;
+  margin-left: 2em;
+}
+.bbs h3 {
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.office {
+  flex: 1;
+}
+.office h3 {
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.attendance {
+  flex: 1;
+}
+.attendance h3 {
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  opacity: 0.6;
+}

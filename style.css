@@ -1,0 +1,269 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  margin-left: 2.2em;
+}
+.header_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30%;
+  font-size: large;
+  text-decoration: none;
+}
+
+.social {
+  margin-right: 50px;
+}
+#a {
+  text-decoration: none;
+  font-size: larger;
+  margin-right: 35px;
+  transition: font-size 0.7s;
+}
+#a:hover {
+  font-size: 1.5em;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-image: url(bodyimg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.wrap {
+  padding-top: 20%;
+}
+#whiteline {
+  margin-block-start: 1em;
+  margin-block-end: 0em;
+  background-color: white;
+  width: 3.5em;
+  height: 0.2em;
+  display: inline-block;
+}
+.bodytext {
+  height: 100%;
+  opacity: 0.9;
+  padding-left: 2.2em;
+  color: whitesmoke;
+}
+#h1 {
+  display: inline-block;
+  margin-block-start: 0.5em;
+  margin-block-end: 0em;
+  font-size: 10vw;
+  font-weight: lighter;
+}
+#h4 {
+  display: inline-block;
+  font-size: 1.2em;
+  margin-block-start: 0.4em;
+  font-weight: lighter;
+}
+#btn {
+  background-color: whitesmoke;
+  border: none;
+  color: blue;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+  display: inline-block;
+}
+#btn:hover {
+  background-color: burlywood;
+  color: white;
+}
+.twobody {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2em;
+}
+.learn {
+  margin-left: 2.2em;
+  flex: 1;
+  margin-right: 1em;
+}
+.pic {
+  flex: 1;
+  height: auto;
+  border-radius: 1em;
+}
+.pic img {
+  width: 100%;
+}
+.counter {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  font-size: xx-large;
+  font-weight: 900;
+  margin-block-end: 3em;
+}
+.counter-numbers {
+  margin-block-end: 0em;
+  color: blue;
+}
+.quote {
+  background-color: rgb(203, 209, 215);
+  color: rgb(91, 91, 91);
+  text-align: left;
+  font-size: 1.7em;
+  font-style: italic;
+  font-weight: 400;
+  padding-block-start: 0.5em;
+  padding-block-end: 0.5em;
+}
+.overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-block-end: 3em;
+}
+.otext {
+  text-align: left;
+  flex: 1;
+  font-size: 3vw;
+  margin-left: 1em;
+}
+.oquote {
+  flex: 1;
+  color: grey;
+  font-size: 1.5vw;
+}
+.course {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  padding: 2em;
+  row-gap: 50px;
+  margin-bottom: 200px;
+}
+#c1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 4em;
+  transition: background-color 0.5s ease;
+}
+#c1 img {
+  transition: width 0.5sec;
+}
+
+#c1 p {
+  font-size: 2em;
+}
+.c1container {
+  width: 22em;
+  height: 22em;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-block-end: 0px;
+}
+.co-curricular {
+  display: flex;
+  margin-block-end: 5em;
+}
+.coimg {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.coimg img {
+  width: 50%;
+  height: max-content;
+  border-radius: 20px;
+  box-shadow: 10px 10px lightblue;
+}
+.cotext {
+  margin-block-start: 0px;
+  flex: 1;
+}
+.cotext h1 {
+  margin-block-start: 0px;
+  font-size: 4em;
+}
+.cotext h2 {
+  font-size: 3vh;
+  margin-block-end: 0px;
+}
+.cotext p {
+  text-align: justify;
+  padding-right: 3em;
+  font-size: 2vh;
+  margin-block-end: 0px;
+  opacity: 0.8;
+}
+.cotext i {
+  color: blue;
+}
+.map-outer-wrapper {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-block-end: 4em;
+}
+
+.map-wrapper {
+  background-color: #fff;
+  width: 70%;
+}
+
+.gmap_canvas {
+  height: 510px;
+  width: 100%;
+}
+.footer-top {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 200px;
+  background-color: #ccc;
+}
+.bbs {
+  flex: 1.7;
+  margin-left: 2em;
+}
+.bbs h3 {
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.office {
+  flex: 1;
+}
+.office h3 {
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.attendance {
+  flex: 1;
+}
+.attendance h3 {
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  opacity: 0.6;
+}
